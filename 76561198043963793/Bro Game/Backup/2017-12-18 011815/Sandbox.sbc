@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>426538560000</ElapsedGameTime>
+  <SessionName>Bro Game</SessionName>
+  <SpectatorPosition>
+    <Position x="4076.041695154383" y="2939.19683822263" z="-192.49450802481988" />
+    <Forward x="0.312611282" y="-0.3765187" z="0.872071" />
+    <Up x="0.810553" y="0.5844158" z="-0.03823603" />
+  </SpectatorPosition>
+  <CameraEntity>115448335830158204</CameraEntity>
+  <CameraSubtype>DefaultFirstPerson</CameraSubtype>
+  <ControlledObject>115448335830158204</ControlledObject>
+  <Password />
+  <Description />
+  <LastSaveTime>2017-12-18T01:18:14.9101071+02:00</LastSaveTime>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot Index="0">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="AxeStone" />
+          <ItemId>63</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="1">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId>221</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="2">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="ShovelWood" />
+          <ItemId>0</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="3">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="MillStone" />
+        </Data>
+      </Slot>
+      <Slot Index="4">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileStone" />
+        </Data>
+      </Slot>
+      <Slot Index="5">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileTimber" />
+        </Data>
+      </Slot>
+      <Slot Index="6">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="RailingWood" />
+        </Data>
+      </Slot>
+      <Slot Index="7">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Timber10" />
+        </Data>
+      </Slot>
+      <Slot Index="8">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileLogSmall" />
+        </Data>
+      </Slot>
+      <Slot Index="9">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId>204</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="10">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SupportWood" />
+        </Data>
+      </Slot>
+      <Slot Index="11">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="FloorWood" />
+        </Data>
+      </Slot>
+      <Slot Index="12">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClay" />
+        </Data>
+      </Slot>
+      <Slot Index="13">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClayWithWindow" />
+        </Data>
+      </Slot>
+      <Slot Index="14">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClayWithEntrance" />
+        </Data>
+      </Slot>
+      <Slot Index="15">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StairsWood" />
+        </Data>
+      </Slot>
+      <Slot Index="16">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClaySlopeTop" />
+        </Data>
+      </Slot>
+      <Slot Index="17">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="RooftopWood" />
+        </Data>
+      </Slot>
+      <Slot Index="18">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId>84</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="19">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WalkwayWood" />
+        </Data>
+      </Slot>
+      <Slot Index="20">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClaySlope" />
+        </Data>
+      </Slot>
+      <Slot Index="21">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="RoofWood" />
+        </Data>
+      </Slot>
+      <Slot Index="22">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="RailingWoodSlopedLeft" />
+        </Data>
+      </Slot>
+      <Slot Index="27">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="PlowCopper" />
+          <ItemId>60</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="28">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_SeedBagHandItem" Subtype="SeedBagFlax" />
+          <ItemId>59</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="29">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_SeedBagHandItem" Subtype="SeedBagCabbage" />
+          <ItemId>465</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="30">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_SeedBagHandItem" Subtype="SeedBagWheat" />
+          <ItemId>485</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="36">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="SwordBroken" />
+          <ItemId>29</ItemId>
+        </Data>
+      </Slot>
+      <Slot Index="45">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileLogSmall" />
+        </Data>
+      </Slot>
+      <Slot Index="46">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="CrateWood" />
+        </Data>
+      </Slot>
+      <Slot Index="47">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WheelWood" />
+        </Data>
+      </Slot>
+      <Slot Index="48">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CogWheelsBlock" Subtype="CatchBlockLockable" />
+        </Data>
+      </Slot>
+      <Slot Index="49">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CogWheelsBlock" Subtype="CatchBlock" />
+        </Data>
+      </Slot>
+      <Slot Index="50">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="TorchStand" />
+        </Data>
+      </Slot>
+      <Slot Index="72">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId>221</ItemId>
+        </Data>
+      </Slot>
+    </Slots>
+  </CharacterToolbar>
+  <Settings xsi:type="MyObjectBuilder_MedievalSessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>1</InventorySizeMultiplier>
+    <OnlineMode>FRIENDS</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>64</MaxFloatingObjects>
+    <MaxBackupSaves>5</MaxBackupSaves>
+    <EnableSpectator>false</EnableSpectator>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <WorldSizeKm>0</WorldSizeKm>
+    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <ProceduralSeed>0</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <ViewDistance>2600</ViewDistance>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableConvertToStation>false</EnableConvertToStation>
+    <EnableSunRotation>true</EnableSunRotation>
+    <PhysicsIterations>4</PhysicsIterations>
+    <SunRotationIntervalMinutes>120</SunRotationIntervalMinutes>
+    <DaysPerSeason>4</DaysPerSeason>
+    <MaxSolarAltitude>0.41</MaxSolarAltitude>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <EnableStructuralSimulation>true</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <DayNightRatio>0.6666667</DayNightRatio>
+    <EnableLargeDynamicGridDecay>true</EnableLargeDynamicGridDecay>
+    <ResourceDecayTime>300</ResourceDecayTime>
+    <AbandonedGridDecayTime>168</AbandonedGridDecayTime>
+    <MaximumBots>10</MaximumBots>
+    <EnableHostileAI>true</EnableHostileAI>
+    <EnableFastTravel>true</EnableFastTravel>
+    <EnableTravelReachability>true</EnableTravelReachability>
+    <EnableTravelToEmptyAreas>true</EnableTravelToEmptyAreas>
+    <TravelCooldown>0</TravelCooldown>
+    <TravelMaxDistance>0</TravelMaxDistance>
+  </Settings>
+  <GameVersion>0.6.1.4068287</GameVersion>
+  <Mods />
+  <PromotedUsers />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="SecondEmptyPlanetScenario" />
+  <RespawnCooldowns />
+  <IdentityCollection>
+    <Identities>
+      <Identity IdentityId="171564804135710650" EntityId="115448335830158204" DisplayName="Dukuu_npanop" />
+      <Identity IdentityId="161659281461836452" EntityId="0" DisplayName="Barbarossa" />
+      <Identity IdentityId="166522221672567279" EntityId="0" DisplayName="Marek" />
+      <Identity IdentityId="173603608122994295" EntityId="0" DisplayName="William Tacher" />
+      <Identity IdentityId="197427202901020136" EntityId="0" DisplayName="Raymond" />
+      <Identity IdentityId="184098002204814457" EntityId="73231507705237542" DisplayName="Ingram" />
+      <Identity IdentityId="166339513185507024" EntityId="99916437730446184" DisplayName="Manfred" />
+      <Identity IdentityId="196953401289995645" EntityId="0" DisplayName="Theobald" />
+      <Identity IdentityId="155215243725517605" EntityId="0" DisplayName="Colin" />
+      <Identity IdentityId="190986759596215078" EntityId="80289407677108701" DisplayName="Godfrey" />
+      <Identity IdentityId="186386647701541128" EntityId="85050953044048340" DisplayName="Mavis" />
+      <Identity IdentityId="145136058474419389" EntityId="102625961708977320" DisplayName="Henry" />
+      <Identity IdentityId="200879539256979634" EntityId="0" DisplayName="Garrett" />
+      <Identity IdentityId="213891817923702537" EntityId="0" DisplayName="Alan" />
+      <Identity IdentityId="188154104832707327" EntityId="0" DisplayName="Leland" />
+      <Identity IdentityId="204475228826539170" EntityId="0" DisplayName="Simon" />
+    </Identities>
+  </IdentityCollection>
+  <ChatHistory />
+  <FactionChatHistory />
+  <SessionComponents />
+  <GameDefinition Type="MyObjectBuilder_SessionDefinition" Subtype="Medieval.Planets" />
+  <InGameTime>1081-07-01T07:00:00</InGameTime>
+</MyObjectBuilder_Checkpoint>

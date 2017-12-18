@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>0</ElapsedGameTime>
+  <SessionName>Bro Game</SessionName>
+  <SpectatorPosition>
+    <Position x="4243.5353848977093" y="2678.0208658615511" z="-256.90143690020363" />
+    <Forward x="-0.373969078" y="0.6557999" z="0.6557999" />
+    <Up x="0.844618" y="0.5329091" z="-0.05126678" />
+  </SpectatorPosition>
+  <CameraEntity>81125869045890318</CameraEntity>
+  <CameraSubtype>DefaultFirstPerson</CameraSubtype>
+  <ControlledObject>81125869045890318</ControlledObject>
+  <Password />
+  <Description />
+  <LastSaveTime>2017-12-17T12:43:47.3917298+02:00</LastSaveTime>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot Index="0">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="AxeStone" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="1">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="2">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="TableCrafting" />
+        </Data>
+      </Slot>
+      <Slot Index="3">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="BedWood" />
+        </Data>
+      </Slot>
+      <Slot Index="4">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="ChestWood" />
+        </Data>
+      </Slot>
+      <Slot Index="5">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileTimberSmall" />
+        </Data>
+      </Slot>
+    </Slots>
+  </CharacterToolbar>
+  <Settings xsi:type="MyObjectBuilder_MedievalSessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>1</InventorySizeMultiplier>
+    <OnlineMode>FRIENDS</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>64</MaxFloatingObjects>
+    <MaxBackupSaves>5</MaxBackupSaves>
+    <EnableSpectator>false</EnableSpectator>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <WorldSizeKm>0</WorldSizeKm>
+    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <ProceduralSeed>0</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <ViewDistance>2600</ViewDistance>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableConvertToStation>false</EnableConvertToStation>
+    <EnableSunRotation>true</EnableSunRotation>
+    <PhysicsIterations>4</PhysicsIterations>
+    <SunRotationIntervalMinutes>120</SunRotationIntervalMinutes>
+    <DaysPerSeason>4</DaysPerSeason>
+    <MaxSolarAltitude>0.41</MaxSolarAltitude>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <EnableStructuralSimulation>true</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <DayNightRatio>0.6666667</DayNightRatio>
+    <EnableLargeDynamicGridDecay>true</EnableLargeDynamicGridDecay>
+    <ResourceDecayTime>300</ResourceDecayTime>
+    <AbandonedGridDecayTime>168</AbandonedGridDecayTime>
+    <MaximumBots>10</MaximumBots>
+    <EnableHostileAI>true</EnableHostileAI>
+    <EnableFastTravel>true</EnableFastTravel>
+    <EnableTravelReachability>true</EnableTravelReachability>
+    <EnableTravelToEmptyAreas>true</EnableTravelToEmptyAreas>
+    <TravelCooldown>0</TravelCooldown>
+    <TravelMaxDistance>0</TravelMaxDistance>
+  </Settings>
+  <GameVersion>0.6.1.4068287</GameVersion>
+  <Mods />
+  <PromotedUsers />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="SecondEmptyPlanetScenario" />
+  <RespawnCooldowns />
+  <IdentityCollection>
+    <Identities>
+      <Identity IdentityId="171564804135710650" EntityId="81125869045890318" DisplayName="Dukuu_npanop" />
+      <Identity IdentityId="161659281461836452" EntityId="0" DisplayName="Barbarossa" />
+      <Identity IdentityId="166522221672567279" EntityId="0" DisplayName="Marek" />
+    </Identities>
+  </IdentityCollection>
+  <ChatHistory />
+  <FactionChatHistory />
+  <SessionComponents />
+  <GameDefinition Type="MyObjectBuilder_SessionDefinition" Subtype="Medieval.Planets" />
+  <InGameTime>1081-07-01T07:00:00</InGameTime>
+</MyObjectBuilder_Checkpoint>

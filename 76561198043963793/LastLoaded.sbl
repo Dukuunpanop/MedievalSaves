@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_LastLoadedTimes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LastLoaded>
+    <LastLoadedEntry Path="C:\Users\Michael-PC\AppData\Roaming\MedievalEngineers\Saves\76561198043963793\Safe Area Start 2017-12-17 1154">
+      <Time>2017-12-17T12:28:22.1133294+02:00</Time>
+    </LastLoadedEntry>
+    <LastLoadedEntry Path="C:\Users\Michael-PC\AppData\Roaming\MedievalEngineers\Saves\76561198043963793\Empty Planet Start 2017-12-17 1229">
+      <Time>2017-12-17T12:42:42.2974852+02:00</Time>
+    </LastLoadedEntry>
+    <LastLoadedEntry Path="C:\Users\Michael-PC\AppData\Roaming\MedievalEngineers\Saves\76561198043963793\Bro Game">
+      <Time>2017-12-18T01:18:19.2426085+02:00</Time>
+    </LastLoadedEntry>
+  </LastLoaded>
+</MyObjectBuilder_LastLoadedTimes>

@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Sector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnvironmentDefinition Type="MyObjectBuilder_EnvironmentDefinition" Subtype="MEPlanets" />
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
+      <TimeSinceLastEventInMs>0</TimeSinceLastEventInMs>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <LastCoordSysId>1</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
+      <DayOffset>0</DayOffset>
+      <DayAngleOffset>-72.00001</DayAngleOffset>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="SessionComponentResearch" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_DiplomacyManager" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_BannerComponent">
+      <Banner BannerId="1">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="191437638963019591">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="2">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0.882352948" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="200275094953233315">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0.882352948" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_DecaySystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FastTravelSystem">
+      <Cooldowns />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FactionManager">
+      <Faction Id="1" Tag="BARB" Name="Barbarians" PublicInfo="Wild and unkempt, Barbarians are always a threat to Engineers everywhere." AcceptsMembers="false" AutoAcceptMembers="true">
+        <Rank Title="Chieftain" Permissions="511" />
+        <Rank Title="Warlord" Permissions="339" />
+        <Rank Title="Warrior" Permissions="0" />
+        <Member PlayerId="191437638963019591" RankIndex="0" />
+      </Faction>
+      <Faction Id="2" Tag="ENGI" Name="Engineer's Guild House" PublicInfo="Association of craftsman trained in engineering. Engineers design, build, and maintain machines and structures." AcceptsMembers="false" AutoAcceptMembers="false">
+        <Rank Title="Master" Permissions="511" />
+        <Rank Title="Engineer" Permissions="339" />
+        <Rank Title="Novice" Permissions="0" />
+        <Member PlayerId="200275094953233315" RankIndex="0" />
+      </Faction>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FarmingSystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_KeychainSystem">
+      <Keychains />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ManipulationComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalReachabilityComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalReachabilityComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AreaUpkeepSystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalPlanetRespawnComponent">
+      <LastRespawnPairList>
+        <RespawnPair>
+          <PlayerId>
+            <ClientId>76561198043963793</ClientId>
+            <SerialId>0</SerialId>
+          </PlayerId>
+          <LastRespawnEntityId>0</LastRespawnEntityId>
+        </RespawnPair>
+      </LastRespawnPairList>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalPlanetRespawnComponent">
+      <LastRespawnPairList>
+        <RespawnPair>
+          <PlayerId>
+            <ClientId>76561198043963793</ClientId>
+            <SerialId>0</SerialId>
+          </PlayerId>
+          <LastRespawnEntityId>0</LastRespawnEntityId>
+        </RespawnPair>
+      </LastRespawnPairList>
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <SessionComponentsEnabled />
+  <SessionComponentsDisabled />
+  <GameVersion>0.6.1.4068287</GameVersion>
+  <SectorObjects>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <EntityId>-1092430907231590608</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>EarthSecond-84784761r5000</Name>
+      <PositionAndOrientation>
+        <Position x="-8192" y="-8192" z="-8192" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_PlanetWonderTrackerComponent">
+          <Areas />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_PlanetAreaContentsComponent" />
+        <Component xsi:type="MyObjectBuilder_PlanetAreaOwnershipComponent" />
+        <Component xsi:type="MyObjectBuilder_PlanetAreaUpkeepComponent">
+          <ExpirationTimes />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_PlanetEnvironmentComponent">
+          <EnvironmentId Type="MyObjectBuilder_ProceduralWorldEnvironment" Subtype="SecondEarthEnvironment" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Forward" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Backward" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Left" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Right" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Up" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Down" />
+          <Definitions>
+            <ItemDef Type="Bot" Subtype="Barbarian" />
+            <ItemDef Type="Bot" Subtype="DeerNothern" />
+            <ItemDef Type="Bot" Subtype="Deer" />
+            <ItemDef Type="Gatherable" Subtype="StoneLargeSnowy" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeBranchless" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumBranchless" />
+            <ItemDef Type="Tree" Subtype="TreePine4mSnowy" />
+            <ItemDef Type="Tree" Subtype="TreePine10Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine15Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine175Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine4m" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmall" />
+            <ItemDef Type="Gatherable" Subtype="Herbs" />
+            <ItemDef Type="Gatherable" Subtype="Mushrooms" />
+            <ItemDef Type="Gatherable" Subtype="Berries" />
+            <ItemDef Type="Gatherable" Subtype="StonePile" />
+            <ItemDef Type="Gatherable" Subtype="SingleStone" />
+            <ItemDef Type="Gatherable" Subtype="Roots" />
+            <ItemDef Type="Static" Subtype="Fern" />
+            <ItemDef Type="Tree" Subtype="TreePine10" />
+            <ItemDef Type="Gatherable" Subtype="HazelMedium" />
+            <ItemDef Type="Tree" Subtype="TreePine15" />
+            <ItemDef Type="Tree" Subtype="TreePine175" />
+            <ItemDef Type="Tree" Subtype="TreePine225" />
+            <ItemDef Type="Tree" Subtype="TreePine25" />
+            <ItemDef Type="Gatherable" Subtype="HazelLarge" />
+            <ItemDef Type="Tree" Subtype="LindenSapling" />
+            <ItemDef Type="Tree" Subtype="TreePine10Southern" />
+            <ItemDef Type="Tree" Subtype="TreePine15Southern" />
+            <ItemDef Type="Tree" Subtype="TreePine175Southern" />
+            <ItemDef Type="Gatherable" Subtype="StoneLarge" />
+            <ItemDef Type="Gatherable" Subtype="WildWheat" />
+            <ItemDef Type="Gatherable" Subtype="WildFlax" />
+            <ItemDef Type="Gatherable" Subtype="WildCabbage" />
+            <ItemDef Type="Gatherable" Subtype="WildFlaxDesert" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmallSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmallKarst" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeKarst" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumKarst" />
+            <ItemDef Type="Gatherable" Subtype="WildPumpkin" />
+            <ItemDef Type="Tree" Subtype="TreePalmTreeSapling" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree250" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree500" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree750" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree1000" />
+            <ItemDef Type="Static" Subtype="FernKarst" />
+            <ItemDef Type="Gatherable" Subtype="" />
+            <ItemDef Type="Gatherable" Subtype="DriedBush" />
+            <ItemDef Type="Gatherable" Subtype="SandStoneLarge" />
+            <ItemDef Type="Gatherable" Subtype="SandStoneSmall" />
+            <ItemDef Type="Gatherable" Subtype="Opuntia" />
+            <ItemDef Type="Gatherable" Subtype="PieceSilver" />
+            <ItemDef Type="Gatherable" Subtype="PieceGold" />
+            <ItemDef Type="Gatherable" Subtype="PieceIron" />
+            <ItemDef Type="Gatherable" Subtype="PieceCopper" />
+            <ItemDef Type="Gatherable" Subtype="PieceTin" />
+          </Definitions>
+        </Component>
+      </ComponentContainer>
+      <ContentChanged>false</ContentChanged>
+      <StorageName>EarthSecond-84784761r5000</StorageName>
+      <Radius>5000</Radius>
+      <HasAtmosphere>true</HasAtmosphere>
+      <AtmosphereRadius>8750</AtmosphereRadius>
+      <MinimumSurfaceRadius>4900</MinimumSurfaceRadius>
+      <MaximumHillRadius>5500</MaximumHillRadius>
+      <GravityFalloff>7</GravityFalloff>
+      <MarkAreaEmpty>true</MarkAreaEmpty>
+      <AtmosphereSettings>
+        <RayleighScattering>
+          <X>100</X>
+          <Y>84</Y>
+          <Z>63</Z>
+        </RayleighScattering>
+        <MieScattering>50</MieScattering>
+        <MieColorScattering>
+          <X>44</X>
+          <Y>62</Y>
+          <Z>150</Z>
+        </MieColorScattering>
+        <RayleighHeight>36</RayleighHeight>
+        <RayleighHeightSpace>15</RayleighHeightSpace>
+        <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+        <MieHeight>200</MieHeight>
+        <MieG>0.9995474</MieG>
+        <Intensity>6</Intensity>
+        <FogIntensity>1</FogIntensity>
+        <SeaLevelModifier>1</SeaLevelModifier>
+        <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+        <Scale>1</Scale>
+      </AtmosphereSettings>
+      <SurfaceGravity>1</SurfaceGravity>
+      <SpawnsFlora>false</SpawnsFlora>
+      <SpherizeWithDistance>true</SpherizeWithDistance>
+      <PlanetGenerator>EarthSecond</PlanetGenerator>
+    </MyObjectBuilder_EntityBase>
+  </SectorObjects>
+  <Environment>
+    <SunAzimuth>-0.502843261</SunAzimuth>
+    <SunElevation>0.789207637</SunElevation>
+    <SunIntensity>0</SunIntensity>
+    <FogMultiplier>0</FogMultiplier>
+    <FogDensity>0.003</FogDensity>
+    <FogColor x="0" y="0" z="0" />
+  </Environment>
+</MyObjectBuilder_Sector>

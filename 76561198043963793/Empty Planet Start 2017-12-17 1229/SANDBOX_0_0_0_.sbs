@@ -1,0 +1,1592 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Sector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnvironmentDefinition Type="MyObjectBuilder_EnvironmentDefinition" Subtype="MEPlanets" />
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent">
+      <BotBrains>
+        <BotData>
+          <IdentityId>173684885457824977</IdentityId>
+          <BotBrain xsi:type="MyObjectBuilder_HumanoidBot">
+            <BotDefId Type="MyObjectBuilder_HumanoidBot" Subtype="NormalBarbarian" />
+            <BotMemory>
+              <BehaviorTreeMemory>
+                <BehaviorName>BarbarianBehavior</BehaviorName>
+                <Memory>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>937274636791</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="CounterLogicMemoryBuilder">
+                      <CurrentCount>2018</CurrentCount>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node InitCalled="true" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>1236529866</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                </Memory>
+                <BlackboardMemory>
+                  <BBMem>
+                    <MemberName>Enemy</MemberName>
+                    <Value xsi:type="MyBBMemoryTarget">
+                      <TargetType>ENTITY</TargetType>
+                      <EntityId>128950655979312955</EntityId>
+                      <Position xsi:nil="true" />
+                      <TreeId xsi:nil="true" />
+                      <CompoundId xsi:nil="true" />
+                    </Value>
+                  </BBMem>
+                </BlackboardMemory>
+              </BehaviorTreeMemory>
+              <NewPath>
+                <int>80</int>
+                <int>72</int>
+                <int>69</int>
+                <int>63</int>
+                <int>49</int>
+                <int>36</int>
+                <int>32</int>
+                <int>31</int>
+                <int>29</int>
+                <int>1</int>
+              </NewPath>
+              <OldPath />
+              <LastRunningNodeIndex>-1</LastRunningNodeIndex>
+            </BotMemory>
+            <LastBehaviorTree>BarbarianBehavior</LastBehaviorTree>
+            <AiTarget>
+              <CurrentTarget>ENTITY</CurrentTarget>
+              <EntityId>128950655979312955</EntityId>
+              <CompoundId xsi:nil="true" />
+              <TargetCube>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetCube>
+              <TargetPosition>
+                <X>4281.14133189544</X>
+                <Y>2576.6870716363696</Y>
+                <Z>-532.43084465073116</Z>
+              </TargetPosition>
+              <UnreachableEntities />
+            </AiTarget>
+            <RespawnCounter>0</RespawnCounter>
+          </BotBrain>
+        </BotData>
+        <BotData>
+          <IdentityId>179636452855588605</IdentityId>
+          <BotBrain xsi:type="MyObjectBuilder_HumanoidBot">
+            <BotDefId Type="MyObjectBuilder_HumanoidBot" Subtype="NormalBarbarian" />
+            <BotMemory>
+              <BehaviorTreeMemory>
+                <BehaviorName>BarbarianBehavior</BehaviorName>
+                <Memory>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>937274641219</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="CounterLogicMemoryBuilder">
+                      <CurrentCount>1683</CurrentCount>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node InitCalled="true" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>1096279863</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                </Memory>
+                <BlackboardMemory>
+                  <BBMem>
+                    <MemberName>Enemy</MemberName>
+                    <Value xsi:type="MyBBMemoryTarget">
+                      <TargetType>CUBE</TargetType>
+                      <EntityId>134076926470999861</EntityId>
+                      <Position>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </Position>
+                      <TreeId xsi:nil="true" />
+                      <CompoundId xsi:nil="true" />
+                    </Value>
+                  </BBMem>
+                </BlackboardMemory>
+              </BehaviorTreeMemory>
+              <NewPath>
+                <int>80</int>
+                <int>72</int>
+                <int>69</int>
+                <int>63</int>
+                <int>49</int>
+                <int>36</int>
+                <int>32</int>
+                <int>31</int>
+                <int>29</int>
+                <int>1</int>
+              </NewPath>
+              <OldPath />
+              <LastRunningNodeIndex>-1</LastRunningNodeIndex>
+            </BotMemory>
+            <LastBehaviorTree>BarbarianBehavior</LastBehaviorTree>
+            <AiTarget>
+              <CurrentTarget>CUBE</CurrentTarget>
+              <EntityId>134076926470999861</EntityId>
+              <CompoundId xsi:nil="true" />
+              <TargetCube>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetCube>
+              <TargetPosition>
+                <X>4281.5649616561823</X>
+                <Y>2575.9196251184253</Y>
+                <Z>-532.95720730827816</Z>
+              </TargetPosition>
+              <UnreachableEntities />
+            </AiTarget>
+            <RespawnCounter>0</RespawnCounter>
+          </BotBrain>
+        </BotData>
+        <BotData>
+          <IdentityId>178075198347858595</IdentityId>
+          <BotBrain xsi:type="MyObjectBuilder_HumanoidBot">
+            <BotDefId Type="MyObjectBuilder_HumanoidBot" Subtype="BrokenSwordBarbarian" />
+            <BotMemory>
+              <BehaviorTreeMemory>
+                <BehaviorName>BarbarianBehavior</BehaviorName>
+                <Memory>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>937274641454</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="CounterLogicMemoryBuilder">
+                      <CurrentCount>6</CurrentCount>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>14145676</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                </Memory>
+                <BlackboardMemory>
+                  <BBMem>
+                    <MemberName>Enemy</MemberName>
+                  </BBMem>
+                </BlackboardMemory>
+              </BehaviorTreeMemory>
+              <NewPath />
+              <OldPath>
+                <int>87</int>
+                <int>84</int>
+                <int>31</int>
+                <int>29</int>
+                <int>1</int>
+              </OldPath>
+              <LastRunningNodeIndex>87</LastRunningNodeIndex>
+            </BotMemory>
+            <LastBehaviorTree>BarbarianBehavior</LastBehaviorTree>
+            <AiTarget>
+              <CurrentTarget>POSITION</CurrentTarget>
+              <EntityId xsi:nil="true" />
+              <CompoundId xsi:nil="true" />
+              <TargetCube>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetCube>
+              <TargetPosition>
+                <X>4291.3054709476719</X>
+                <Y>2530.8173565433513</Y>
+                <Z>-650.91074524504154</Z>
+              </TargetPosition>
+              <UnreachableEntities>
+                <UnreachableEntitiesData>
+                  <UnreachableEntityId>73498587637744544</UnreachableEntityId>
+                  <Timeout>59112</Timeout>
+                </UnreachableEntitiesData>
+              </UnreachableEntities>
+            </AiTarget>
+            <RespawnCounter>0</RespawnCounter>
+          </BotBrain>
+        </BotData>
+        <BotData>
+          <IdentityId>172462257788107651</IdentityId>
+          <BotBrain xsi:type="MyObjectBuilder_HumanoidBot">
+            <BotDefId Type="MyObjectBuilder_HumanoidBot" Subtype="BrokenSwordBarbarian" />
+            <BotMemory>
+              <BehaviorTreeMemory>
+                <BehaviorName>BarbarianBehavior</BehaviorName>
+                <Memory>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>937274641505</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" InitialIndex="1" />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="CounterLogicMemoryBuilder">
+                      <CurrentCount>0</CurrentCount>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node />
+                  <Node />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeControlNodeMemory" />
+                  <Node xsi:type="MyObjectBuilder_BehaviorTreeDecoratorNodeMemory">
+                    <Logic xsi:type="TimerLogicMemoryBuilder">
+                      <CurrentTime>25599838</CurrentTime>
+                      <TimeLimitReached>false</TimeLimitReached>
+                    </Logic>
+                  </Node>
+                  <Node />
+                  <Node InitCalled="true" />
+                </Memory>
+                <BlackboardMemory>
+                  <BBMem>
+                    <MemberName>Enemy</MemberName>
+                  </BBMem>
+                </BlackboardMemory>
+              </BehaviorTreeMemory>
+              <NewPath>
+                <int>87</int>
+                <int>84</int>
+                <int>31</int>
+                <int>29</int>
+                <int>1</int>
+              </NewPath>
+              <OldPath />
+              <LastRunningNodeIndex>-1</LastRunningNodeIndex>
+            </BotMemory>
+            <LastBehaviorTree>BarbarianBehavior</LastBehaviorTree>
+            <AiTarget>
+              <CurrentTarget>POSITION</CurrentTarget>
+              <EntityId xsi:nil="true" />
+              <CompoundId xsi:nil="true" />
+              <TargetCube>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetCube>
+              <TargetPosition>
+                <X>4270.3735155660634</X>
+                <Y>2550.7682281812035</Y>
+                <Z>-721.50007313316519</Z>
+              </TargetPosition>
+              <UnreachableEntities />
+            </AiTarget>
+            <RespawnCounter>0</RespawnCounter>
+          </BotBrain>
+        </BotData>
+      </BotBrains>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
+      <TimeSinceLastEventInMs>73858</TimeSinceLastEventInMs>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <LastCoordSysId>1</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
+      <DayOffset>0</DayOffset>
+      <DayAngleOffset>-72.00001</DayAngleOffset>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="SessionComponentResearch">
+      <Research Identity="194074430313621714">
+        <Entry Type="MyObjectBuilder_ResearchDefinition" Subtype="Tutorial" />
+      </Research>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_DiplomacyManager" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_BannerComponent">
+      <Banner BannerId="1">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="191437638963019591">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="2">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0.882352948" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="200275094953233315">
+        <BackgroundColor x="0" y="0.0156862754" z="0.0235294122" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="None">
+            <Color x="0.003921569" y="0.0235294122" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="Character">
+            <Color x="1" y="0.882352948" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="0">
+        <BackgroundColor x="0.945098042" y="0.945098042" z="0.9137255" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="Quarters">
+            <Color x="1" y="0.2" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="">
+            <Color x="0" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+      <Banner BannerId="194074430313621714">
+        <BackgroundColor x="0.945098042" y="0.945098042" z="0.9137255" />
+        <Layers>
+          <BannerLayer ModId="" Pattern="Quarters">
+            <Color x="1" y="0.7490196" z="0" />
+          </BannerLayer>
+          <BannerLayer ModId="" Pattern="">
+            <Color x="0" y="0" z="0" />
+          </BannerLayer>
+        </Layers>
+        <BonusPattern>0</BonusPattern>
+      </Banner>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_DecaySystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FastTravelSystem">
+      <Cooldowns />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FactionManager">
+      <Faction Id="1" Tag="BARB" Name="Barbarians" PublicInfo="Wild and unkempt, Barbarians are always a threat to Engineers everywhere." AcceptsMembers="false" AutoAcceptMembers="true">
+        <Rank Title="Chieftain" Permissions="511" />
+        <Rank Title="Warlord" Permissions="339" />
+        <Rank Title="Warrior" Permissions="0" />
+        <Member PlayerId="191437638963019591" RankIndex="0" />
+        <Member PlayerId="173684885457824977" RankIndex="2" />
+        <Member PlayerId="179636452855588605" RankIndex="2" />
+        <Member PlayerId="178075198347858595" RankIndex="2" />
+        <Member PlayerId="172462257788107651" RankIndex="2" />
+      </Faction>
+      <Faction Id="2" Tag="ENGI" Name="Engineer's Guild House" PublicInfo="Association of craftsman trained in engineering. Engineers design, build, and maintain machines and structures." AcceptsMembers="false" AutoAcceptMembers="false">
+        <Rank Title="Master" Permissions="511" />
+        <Rank Title="Engineer" Permissions="339" />
+        <Rank Title="Novice" Permissions="0" />
+        <Member PlayerId="200275094953233315" RankIndex="0" />
+      </Faction>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_FarmingSystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_KeychainSystem">
+      <Keychains />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ManipulationComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalReachabilityComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalReachabilityComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AreaUpkeepSystem" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalPlanetRespawnComponent">
+      <LastRespawnPairList>
+        <RespawnPair>
+          <PlayerId>
+            <ClientId>76561198043963793</ClientId>
+            <SerialId>0</SerialId>
+          </PlayerId>
+          <LastRespawnEntityId>0</LastRespawnEntityId>
+        </RespawnPair>
+      </LastRespawnPairList>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MedievalPlanetRespawnComponent">
+      <LastRespawnPairList>
+        <RespawnPair>
+          <PlayerId>
+            <ClientId>76561198043963793</ClientId>
+            <SerialId>0</SerialId>
+          </PlayerId>
+          <LastRespawnEntityId>0</LastRespawnEntityId>
+        </RespawnPair>
+      </LastRespawnPairList>
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <SessionComponentsEnabled />
+  <SessionComponentsDisabled />
+  <GameVersion>0.6.1.4068287</GameVersion>
+  <SectorObjects>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <EntityId>-1092430907231590608</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>EarthSecond-84784761r5000</Name>
+      <PositionAndOrientation>
+        <Position x="-8192" y="-8192" z="-8192" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_PlanetWonderTrackerComponent">
+          <Areas />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_PlanetAreaContentsComponent">
+          <Areas>
+            <AreaInfo AreaId="2305843022098595886" LastVisit="5211200000" />
+          </Areas>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_PlanetAreaOwnershipComponent" />
+        <Component xsi:type="MyObjectBuilder_PlanetAreaUpkeepComponent">
+          <ExpirationTimes />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_PlanetEnvironmentComponent">
+          <EnvironmentId Type="MyObjectBuilder_ProceduralWorldEnvironment" Subtype="SecondEarthEnvironment" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Forward" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Backward" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Left">
+            <Sector>
+              <SectorId>562950372851784</SectorId>
+              <SavedModules>
+                <Module>
+                  <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Growable" />
+                  <Builder xsi:type="MyObjectBuilder_GrowableEnvironmentModule">
+                    <SavedGrowthSteps>
+                      <GrowthStepInfo Position="83" Step="0" Time="33" DefinitionIndex="10" />
+                      <GrowthStepInfo Position="23" Step="1" Time="40" DefinitionIndex="14" />
+                      <GrowthStepInfo Position="91" Step="0" Time="52" DefinitionIndex="10" />
+                      <GrowthStepInfo Position="44" Step="0" Time="53" DefinitionIndex="21" />
+                      <GrowthStepInfo Position="40" Step="0" Time="54" DefinitionIndex="19" />
+                      <GrowthStepInfo Position="101" Step="0" Time="201" DefinitionIndex="10" />
+                      <GrowthStepInfo Position="78" Step="0" Time="204" DefinitionIndex="19" />
+                      <GrowthStepInfo Position="8" Step="0" Time="214" DefinitionIndex="20" />
+                      <GrowthStepInfo Position="86" Step="0" Time="224" DefinitionIndex="23" />
+                      <GrowthStepInfo Position="105" Step="0" Time="304" DefinitionIndex="11" />
+                    </SavedGrowthSteps>
+                  </Builder>
+                </Module>
+              </SavedModules>
+              <CompressedItemData>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</CompressedItemData>
+              <HasAddedItems>false</HasAddedItems>
+              <ItemCountsPerLod>
+                <int>132</int>
+                <int>132</int>
+                <int>49</int>
+                <int>25</int>
+                <int>12</int>
+                <int>6</int>
+                <int>4</int>
+                <int>2</int>
+                <int>1</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+              </ItemCountsPerLod>
+              <FirstEmpty>-32768</FirstEmpty>
+            </Sector>
+            <Sector>
+              <SectorId>562950389628999</SectorId>
+              <SavedModules>
+                <Module>
+                  <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Growable" />
+                  <Builder xsi:type="MyObjectBuilder_GrowableEnvironmentModule">
+                    <SavedGrowthSteps>
+                      <GrowthStepInfo Position="110" Step="0" Time="172" DefinitionIndex="15" />
+                    </SavedGrowthSteps>
+                  </Builder>
+                </Module>
+              </SavedModules>
+              <HasAddedItems>false</HasAddedItems>
+              <FirstEmpty>-32768</FirstEmpty>
+            </Sector>
+            <Sector>
+              <SectorId>562950372851783</SectorId>
+              <SavedModules>
+                <Module>
+                  <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Growable" />
+                  <Builder xsi:type="MyObjectBuilder_GrowableEnvironmentModule">
+                    <SavedGrowthSteps>
+                      <GrowthStepInfo Position="25" Step="0" Time="27" DefinitionIndex="10" />
+                      <GrowthStepInfo Position="38" Step="0" Time="101" DefinitionIndex="11" />
+                      <GrowthStepInfo Position="128" Step="0" Time="111" DefinitionIndex="25" />
+                    </SavedGrowthSteps>
+                  </Builder>
+                </Module>
+              </SavedModules>
+              <CompressedItemData>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</CompressedItemData>
+              <HasAddedItems>false</HasAddedItems>
+              <ItemCountsPerLod>
+                <int>135</int>
+                <int>135</int>
+                <int>59</int>
+                <int>28</int>
+                <int>11</int>
+                <int>4</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+              </ItemCountsPerLod>
+              <FirstEmpty>-32768</FirstEmpty>
+            </Sector>
+            <Sector>
+              <SectorId>562950356074567</SectorId>
+              <SavedModules>
+                <Module>
+                  <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Growable" />
+                  <Builder xsi:type="MyObjectBuilder_GrowableEnvironmentModule">
+                    <SavedGrowthSteps>
+                      <GrowthStepInfo Position="33" Step="0" Time="25" DefinitionIndex="25" />
+                      <GrowthStepInfo Position="84" Step="0" Time="64" DefinitionIndex="56" />
+                      <GrowthStepInfo Position="14" Step="0" Time="74" DefinitionIndex="13" />
+                      <GrowthStepInfo Position="36" Step="1" Time="90" DefinitionIndex="14" />
+                    </SavedGrowthSteps>
+                  </Builder>
+                </Module>
+              </SavedModules>
+              <HasAddedItems>false</HasAddedItems>
+              <FirstEmpty>-32768</FirstEmpty>
+            </Sector>
+          </Provider>
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Right" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Up" />
+          <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Down" />
+          <Definitions>
+            <ItemDef Type="Bot" Subtype="Barbarian" />
+            <ItemDef Type="Bot" Subtype="DeerNothern" />
+            <ItemDef Type="Bot" Subtype="Deer" />
+            <ItemDef Type="Gatherable" Subtype="StoneLargeSnowy" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeBranchless" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumBranchless" />
+            <ItemDef Type="Tree" Subtype="TreePine4mSnowy" />
+            <ItemDef Type="Tree" Subtype="TreePine10Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine15Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine175Snowy" />
+            <ItemDef Type="Tree" Subtype="TreePine4m" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmall" />
+            <ItemDef Type="Gatherable" Subtype="Herbs" />
+            <ItemDef Type="Gatherable" Subtype="Mushrooms" />
+            <ItemDef Type="Gatherable" Subtype="Berries" />
+            <ItemDef Type="Gatherable" Subtype="StonePile" />
+            <ItemDef Type="Gatherable" Subtype="SingleStone" />
+            <ItemDef Type="Gatherable" Subtype="Roots" />
+            <ItemDef Type="Static" Subtype="Fern" />
+            <ItemDef Type="Tree" Subtype="TreePine10" />
+            <ItemDef Type="Gatherable" Subtype="HazelMedium" />
+            <ItemDef Type="Tree" Subtype="TreePine15" />
+            <ItemDef Type="Tree" Subtype="TreePine175" />
+            <ItemDef Type="Tree" Subtype="TreePine225" />
+            <ItemDef Type="Tree" Subtype="TreePine25" />
+            <ItemDef Type="Gatherable" Subtype="HazelLarge" />
+            <ItemDef Type="Tree" Subtype="LindenSapling" />
+            <ItemDef Type="Tree" Subtype="TreePine10Southern" />
+            <ItemDef Type="Tree" Subtype="TreePine15Southern" />
+            <ItemDef Type="Tree" Subtype="TreePine175Southern" />
+            <ItemDef Type="Gatherable" Subtype="StoneLarge" />
+            <ItemDef Type="Gatherable" Subtype="WildWheat" />
+            <ItemDef Type="Gatherable" Subtype="WildFlax" />
+            <ItemDef Type="Gatherable" Subtype="WildCabbage" />
+            <ItemDef Type="Gatherable" Subtype="WildFlaxDesert" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmallSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumSteppe" />
+            <ItemDef Type="Gatherable" Subtype="HazelSmallKarst" />
+            <ItemDef Type="Gatherable" Subtype="HazelLargeKarst" />
+            <ItemDef Type="Gatherable" Subtype="HazelMediumKarst" />
+            <ItemDef Type="Gatherable" Subtype="WildPumpkin" />
+            <ItemDef Type="Tree" Subtype="TreePalmTreeSapling" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree250" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree500" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree750" />
+            <ItemDef Type="Tree" Subtype="TreePalmTree1000" />
+            <ItemDef Type="Static" Subtype="FernKarst" />
+            <ItemDef Type="Gatherable" Subtype="" />
+            <ItemDef Type="Gatherable" Subtype="DriedBush" />
+            <ItemDef Type="Gatherable" Subtype="SandStoneLarge" />
+            <ItemDef Type="Gatherable" Subtype="SandStoneSmall" />
+            <ItemDef Type="Gatherable" Subtype="Opuntia" />
+            <ItemDef Type="Gatherable" Subtype="PieceSilver" />
+            <ItemDef Type="Gatherable" Subtype="PieceGold" />
+            <ItemDef Type="Gatherable" Subtype="PieceIron" />
+            <ItemDef Type="Gatherable" Subtype="PieceCopper" />
+            <ItemDef Type="Gatherable" Subtype="PieceTin" />
+          </Definitions>
+        </Component>
+      </ComponentContainer>
+      <ContentChanged>false</ContentChanged>
+      <StorageName>EarthSecond-84784761r5000</StorageName>
+      <Radius>5000</Radius>
+      <HasAtmosphere>true</HasAtmosphere>
+      <AtmosphereRadius>8750</AtmosphereRadius>
+      <MinimumSurfaceRadius>4900</MinimumSurfaceRadius>
+      <MaximumHillRadius>5500</MaximumHillRadius>
+      <GravityFalloff>7</GravityFalloff>
+      <MarkAreaEmpty>true</MarkAreaEmpty>
+      <AtmosphereSettings>
+        <RayleighScattering>
+          <X>100</X>
+          <Y>84</Y>
+          <Z>63</Z>
+        </RayleighScattering>
+        <MieScattering>50</MieScattering>
+        <MieColorScattering>
+          <X>44</X>
+          <Y>62</Y>
+          <Z>150</Z>
+        </MieColorScattering>
+        <RayleighHeight>36</RayleighHeight>
+        <RayleighHeightSpace>15</RayleighHeightSpace>
+        <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+        <MieHeight>200</MieHeight>
+        <MieG>0.9995474</MieG>
+        <Intensity>6</Intensity>
+        <FogIntensity>1</FogIntensity>
+        <SeaLevelModifier>1</SeaLevelModifier>
+        <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+        <Scale>1</Scale>
+      </AtmosphereSettings>
+      <SurfaceGravity>1</SurfaceGravity>
+      <SpawnsFlora>false</SpawnsFlora>
+      <SpherizeWithDistance>true</SpherizeWithDistance>
+      <PlanetGenerator>EarthSecond</PlanetGenerator>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_barbarian">
+      <EntityId>86254391464684792</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4247.206710084527" y="2629.7828033715991" z="-577.12545095489986" />
+        <Forward x="0.4862584" y="-0.6596235" z="0.573104858" />
+        <Up x="0.8446562" y="0.5228329" z="-0.114897639" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+          <Pitch>0</Pitch>
+          <Yaw>0</Yaw>
+          <Distance>4</Distance>
+          <TargetOffset>
+            <X>0</X>
+            <Y>2</Y>
+            <Z>0</Z>
+          </TargetOffset>
+          <FrameOffset>
+            <X>0</X>
+            <Y>0</Y>
+          </FrameOffset>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_AiControllerComponent" />
+        <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+          <Stats>
+            <MyObjectBuilder_EntityStat Subtype="Health">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+            <MyObjectBuilder_EntityStat Subtype="Stamina">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+          </Stats>
+          <ScriptNames>
+            <string>BarbarianStatEffect</string>
+          </ScriptNames>
+          <ImmunityTicks>0</ImmunityTicks>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0" y="0" z="0" />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_CombatComponent" />
+        <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+          <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Skull" ItemId="0" Quantity="1">
+            <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+          </Item>
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="Goulash" ItemId="1" Quantity="1" />
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="Bandage" ItemId="2" Quantity="5" />
+          <Item xsi:type="MyObjectBuilder_HandItem" Subtype="ClubStudded" ItemId="3" Quantity="1" Durability="1" />
+          <NextItemId>4</NextItemId>
+          <InventoryFlags />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent">
+          <EquippedItem ItemId="3" Position="0">
+            <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="ClubStudded" />
+          </EquippedItem>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+          <CurrentState>NormalMode</CurrentState>
+        </Component>
+      </ComponentContainer>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_barbarian">
+      <EntityId>132495204348677681</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4276.0404078803949" y="2537.9337890893726" z="-707.78191076324947" />
+        <Forward x="-0.452156633" y="0.5711292" z="-0.6851027" />
+        <Up x="0.851469755" y="0.5051318" z="-0.140858084" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+          <Pitch>0</Pitch>
+          <Yaw>0</Yaw>
+          <Distance>4</Distance>
+          <TargetOffset>
+            <X>0</X>
+            <Y>2</Y>
+            <Z>0</Z>
+          </TargetOffset>
+          <FrameOffset>
+            <X>0</X>
+            <Y>0</Y>
+          </FrameOffset>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_AiControllerComponent" />
+        <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+          <Stats>
+            <MyObjectBuilder_EntityStat Subtype="Health">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+            <MyObjectBuilder_EntityStat Subtype="Stamina">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+          </Stats>
+          <ScriptNames>
+            <string>BarbarianStatEffect</string>
+          </ScriptNames>
+          <ImmunityTicks>0</ImmunityTicks>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0" y="0" z="0" />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_CombatComponent" />
+        <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+          <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Skull" ItemId="0" Quantity="1">
+            <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+          </Item>
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="RootsWithShrooms" ItemId="1" Quantity="2" />
+          <Item xsi:type="MyObjectBuilder_HandItem" Subtype="AxeCopper" ItemId="2" Quantity="1" Durability="1" />
+          <Item xsi:type="MyObjectBuilder_HandItem" Subtype="SwordBroken" ItemId="3" Quantity="1" Durability="1" />
+          <NextItemId>4</NextItemId>
+          <InventoryFlags />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent">
+          <EquippedItem ItemId="3" Position="0">
+            <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="SwordBroken" />
+          </EquippedItem>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+          <CurrentState>NormalMode</CurrentState>
+        </Component>
+      </ComponentContainer>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <EntityId>94944959276625558</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4282.4538938116275" y="2574.8173955008892" z="-533.99868898199566" />
+        <Forward x="0.4679998" y="-0.8367663" z="-0.284250468" />
+        <Up x="0.851996541" y="0.512637" z="-0.106325842" />
+      </PositionAndOrientation>
+      <GridSizeEnum>Small</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock" Subtype="TableCrafting">
+          <EntityId>122547368767562066</EntityId>
+          <Min x="-2" y="-1" z="-1" />
+          <SubBlocks />
+          <ComponentContainer>
+            <Component xsi:type="MyObjectBuilder_CraftingComponentQueued">
+              <CurrentProduction xsi:nil="true" />
+              <CurrentCrafterId>-1</CurrentCrafterId>
+              <CurrentProductionDuration>1000</CurrentProductionDuration>
+              <CurrentProductionTimeRemaining>521200</CurrentProductionTimeRemaining>
+              <ProductionQueue />
+            </Component>
+            <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+            <Component xsi:type="MyObjectBuilder_Inventory" Subtype="CraftingInventory">
+              <NextItemId>10</NextItemId>
+              <InventoryFlags />
+            </Component>
+            <Component xsi:type="MyObjectBuilder_ModelComponent">
+              <ColorMask x="0" y="0" z="0" />
+            </Component>
+          </ComponentContainer>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Static Grid 5558</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FracturedPiece">
+      <EntityId>109285301250498078</EntityId>
+      <PersistentFlags>Enabled InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4276.1169135414057" y="2582.5565288812427" z="-537.12852655457027" />
+        <Forward x="-0.06367269" y="-0.101286329" z="-0.99281764" />
+        <Up x="0.851099253" y="0.513981164" z="-0.1070197" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0" y="0" z="0" />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_FracturePieceDecayComponent">
+          <Enabled>true</Enabled>
+          <Decaying>false</Decaying>
+          <TimeToUpdate>3232</TimeToUpdate>
+        </Component>
+      </ComponentContainer>
+      <BlockDefinitions>
+        <SerializableDefinitionId Type="MyObjectBuilder_TreeDefinition" Subtype="Tree05" />
+      </BlockDefinitions>
+      <Shapes>
+        <Shape>
+          <Name>PineTree225m_destruction001</Name>
+          <Orientation x="0" y="0" z="0" w="1" />
+          <Fixed>true</Fixed>
+        </Shape>
+      </Shapes>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_barbarian">
+      <EntityId>73400522780497876</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4264.3683335624628" y="2599.4517277032642" z="-635.65988622711666" />
+        <Forward x="0.241724074" y="-0.162317187" z="0.9566723" />
+        <Up x="0.847044349" y="0.516266644" z="-0.126429975" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+          <Pitch>0</Pitch>
+          <Yaw>0</Yaw>
+          <Distance>4</Distance>
+          <TargetOffset>
+            <X>0</X>
+            <Y>2</Y>
+            <Z>0</Z>
+          </TargetOffset>
+          <FrameOffset>
+            <X>0</X>
+            <Y>0</Y>
+          </FrameOffset>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_AiControllerComponent" />
+        <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+          <Stats>
+            <MyObjectBuilder_EntityStat Subtype="Health">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+            <MyObjectBuilder_EntityStat Subtype="Stamina">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+          </Stats>
+          <ScriptNames>
+            <string>BarbarianStatEffect</string>
+          </ScriptNames>
+          <ImmunityTicks>0</ImmunityTicks>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0" y="0" z="0" />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_CombatComponent" />
+        <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+          <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Skull" ItemId="0" Quantity="1">
+            <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+          </Item>
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="SteakWithMushrooms" ItemId="1" Quantity="2" />
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="RootsWithShrooms" ItemId="2" Quantity="2" />
+          <Item xsi:type="MyObjectBuilder_HandItem" Subtype="ClubStudded" ItemId="3" Quantity="1" Durability="1" />
+          <NextItemId>4</NextItemId>
+          <InventoryFlags />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent">
+          <EquippedItem ItemId="3" Position="0">
+            <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="ClubStudded" />
+          </EquippedItem>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+          <CurrentState>NormalMode</CurrentState>
+        </Component>
+      </ComponentContainer>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
+      <EntityId>96235279344756184</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4284.1039459548883" y="2569.3648956567554" z="-545.11387239502437" />
+        <Forward x="-0.00604062062" y="-0.4999519" z="0.8660321" />
+        <Up x="0.490325838" y="-0.7562712" z="-0.433167934" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0.964515269" y="0" z="0" />
+          <DisplayName>Log</DisplayName>
+        </Component>
+      </ComponentContainer>
+      <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="Log" ItemId="0" Quantity="1" />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_barbarian">
+      <EntityId>125596154852072141</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4277.8810293518" y="2553.889519527605" z="-644.54968725250728" />
+        <Forward x="0.476020336" y="-0.852214336" z="-0.2171061" />
+        <Up x="0.8515233" y="0.508348346" z="-0.128412455" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+          <Pitch>0</Pitch>
+          <Yaw>0</Yaw>
+          <Distance>4</Distance>
+          <TargetOffset>
+            <X>0</X>
+            <Y>2</Y>
+            <Z>0</Z>
+          </TargetOffset>
+          <FrameOffset>
+            <X>0</X>
+            <Y>0</Y>
+          </FrameOffset>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_AiControllerComponent" />
+        <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+          <Stats>
+            <MyObjectBuilder_EntityStat Subtype="Health">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+            <MyObjectBuilder_EntityStat Subtype="Stamina">
+              <Value>1</Value>
+              <MaxValue>1</MaxValue>
+              <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+              <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+            </MyObjectBuilder_EntityStat>
+          </Stats>
+          <ScriptNames>
+            <string>BarbarianStatEffect</string>
+          </ScriptNames>
+          <ImmunityTicks>0</ImmunityTicks>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0" y="0" z="0" />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_CombatComponent" />
+        <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+          <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Skull" ItemId="0" Quantity="1">
+            <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+          </Item>
+          <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="MapPiece_4of4" ItemId="1" Quantity="1" />
+          <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="Goulash" ItemId="2" Quantity="1" />
+          <Item xsi:type="MyObjectBuilder_HandItem" Subtype="SwordBroken" ItemId="3" Quantity="1" Durability="1" />
+          <NextItemId>4</NextItemId>
+          <InventoryFlags />
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent">
+          <EquippedItem ItemId="3" Position="0">
+            <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="SwordBroken" />
+          </EquippedItem>
+        </Component>
+        <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+          <CurrentState>NormalMode</CurrentState>
+        </Component>
+      </ComponentContainer>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <EntityId>134076926470999861</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4284.0834415249519" y="2572.4192577526478" z="-534.54733520013906" />
+        <Forward x="-0.219214931" y="0.164878413" z="-0.9616444" />
+        <Up x="0.851996541" y="0.5126371" z="-0.10632576" />
+      </PositionAndOrientation>
+      <GridSizeEnum>Small</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock" Subtype="StockpileTimberSmall">
+          <EntityId>73498587637744544</EntityId>
+          <Min x="-4" y="-2" z="-2" />
+          <SubBlocks />
+          <ComponentContainer>
+            <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+            <Component xsi:type="MyObjectBuilder_Inventory" Subtype="StockpileTimberSmall">
+              <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Timber10" ItemId="0" Quantity="5">
+                <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+              </Item>
+              <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Timber10" ItemId="1" Quantity="5">
+                <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+              </Item>
+              <NextItemId>2</NextItemId>
+              <InventoryFlags />
+            </Component>
+            <Component xsi:type="MyObjectBuilder_CubeBlockSubpartComponent">
+              <Subparts>
+                <Subpart Name="Inventory_Slot_00">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="0.707106769" y="0" z="0" w="0.707106769" />
+                  <IsVisible>true</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_01">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="1" y="5.684342E-14" z="-2.38418579E-07" w="1.94707184E-07" />
+                  <IsVisible>true</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_02">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-2.38418579E-07" y="-1.36848655E-07" z="-3.86091068E-14" w="1" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_03">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-0.707107067" y="-9.676665E-08" z="9.676657E-08" w="0.7071065" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_04">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-2.38418579E-07" y="-1.36848655E-07" z="-3.86091068E-14" w="1" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_05">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-2.38418579E-07" y="-1.36848655E-07" z="-3.86091068E-14" w="1" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_06">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="1" y="5.684342E-14" z="-2.38418579E-07" w="1.94707184E-07" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_07">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-0.707107067" y="-9.676665E-08" z="9.676657E-08" w="0.7071065" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_08">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="0.707106769" y="0" z="0" w="0.707106769" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_09">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="0.707106769" y="0" z="0" w="0.707106769" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_10">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-0.707107067" y="-9.676665E-08" z="9.676657E-08" w="0.7071065" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_11">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="1" y="5.684342E-14" z="-2.38418579E-07" w="1.94707184E-07" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_12">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-0.707107067" y="-9.676665E-08" z="9.676657E-08" w="0.7071065" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_13">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-2.38418579E-07" y="-1.36848655E-07" z="-3.86091068E-14" w="1" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_14">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="1" y="5.684342E-14" z="-2.38418579E-07" w="1.94707184E-07" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+                <Subpart Name="Inventory_Slot_15">
+                  <Translation x="0" y="0" z="0" />
+                  <Orientation x="-2.38418579E-07" y="-1.36848655E-07" z="-3.86091068E-14" w="1" />
+                  <IsVisible>false</IsVisible>
+                  <HasPhysics>false</HasPhysics>
+                </Subpart>
+              </Subparts>
+            </Component>
+            <Component xsi:type="MyObjectBuilder_ModelComponent">
+              <ColorMask x="0" y="0" z="0" />
+            </Component>
+          </ComponentContainer>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Static Grid 9861</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
+      <EntityId>142642804786184713</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4285.7642614684992" y="2566.6726272851733" z="-546.38629232452877" />
+        <Forward x="-0.645072043" y="-0.607724667" z="0.4631985" />
+        <Up x="0.454200923" y="-0.792427242" z="-0.407137036" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0.964515269" y="0" z="0" />
+          <DisplayName>Log</DisplayName>
+        </Component>
+      </ComponentContainer>
+      <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="Log" ItemId="0" Quantity="1" />
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <EntityId>113842466488810272</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4282.8772226098918" y="2574.8253244907169" z="-531.79028102488883" />
+        <Forward x="0.4679998" y="-0.8367663" z="-0.284250468" />
+        <Up x="0.851996541" y="0.512637" z="-0.106325842" />
+      </PositionAndOrientation>
+      <GridSizeEnum>Small</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock" Subtype="BedWood">
+          <EntityId>119206781753434665</EntityId>
+          <Min x="-1" y="-1" z="-3" />
+          <SubBlocks />
+          <ComponentContainer>
+            <Component xsi:type="MyObjectBuilder_EntityOwnershipComponent">
+              <OwnerId>194074430313621714</OwnerId>
+              <ShareMode>None</ShareMode>
+            </Component>
+            <Component xsi:type="MyObjectBuilder_BindableRespawnComponent">
+              <BoundId>194074430313621714</BoundId>
+            </Component>
+            <Component xsi:type="MyObjectBuilder_RespawnComponent" />
+            <Component xsi:type="MyObjectBuilder_ModelComponent">
+              <ColorMask x="0" y="0" z="0" />
+            </Component>
+          </ComponentContainer>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Static Grid 272</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
+      <EntityId>137753090717461257</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="4285.9944727264337" y="2566.7805641443042" z="-546.478415356145" />
+        <Forward x="0.0453970581" y="0.09042312" z="-0.9948682" />
+        <Up x="0.8814327" y="0.465050429" z="0.08248908" />
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Component xsi:type="MyObjectBuilder_ModelComponent">
+          <ColorMask x="0.964515269" y="0" z="0" />
+          <DisplayName>Scrap Wood Branches (3x)</DisplayName>
+        </Component>
+      </ComponentContainer>
+      <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="BranchesConiferous" ItemId="0" Quantity="3" />
+    </MyObjectBuilder_EntityBase>
+  </SectorObjects>
+  <Environment>
+    <SunAzimuth>-0.502843142</SunAzimuth>
+    <SunElevation>0.789207637</SunElevation>
+    <SunIntensity>0</SunIntensity>
+    <FogMultiplier>0</FogMultiplier>
+    <FogDensity>0.003</FogDensity>
+    <FogColor x="0" y="0" z="0" />
+  </Environment>
+</MyObjectBuilder_Sector>

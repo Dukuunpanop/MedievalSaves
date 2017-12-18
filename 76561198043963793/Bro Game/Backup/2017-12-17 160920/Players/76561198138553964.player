@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyObjectBuilder_PlayerStorage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlayerId>76561198138553964</PlayerId>
+  <IdentityId>173603608122994295</IdentityId>
+  <Entity xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_male">
+    <EntityId>114021706353110116</EntityId>
+    <PersistentFlags>CastShadows InScene</PersistentFlags>
+    <PositionAndOrientation>
+      <Position x="4078.39111328125" y="2927.1067870855331" z="-212.91741943359375" />
+      <Forward x="0.06757637" y="-0.0211405456" z="0.997489452" />
+      <Up x="0.8117019" y="0.582512856" z="-0.0426442847" />
+    </PositionAndOrientation>
+    <ComponentContainer>
+      <Component xsi:type="MyObjectBuilder_ModelComponent">
+        <ColorMask x="0" y="0" z="0" />
+        <DisplayName>William Tacher</DisplayName>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+        <Pitch>0</Pitch>
+        <Yaw>0</Yaw>
+        <Distance>4</Distance>
+        <TargetOffset>
+          <X>0</X>
+          <Y>2</Y>
+          <Z>0</Z>
+        </TargetOffset>
+        <FrameOffset>
+          <X>0</X>
+          <Y>0</Y>
+        </FrameOffset>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_FirstPersonCameraComponent" Subtype="DefaultFirstPerson">
+        <Pitch>-0.472167969</Pitch>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_AreaInventoryAggregate" Subtype="NearbyInventories">
+        <Radius>12</Radius>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent" />
+      <Component xsi:type="MyObjectBuilder_AreaInventory" Subtype="Ground" />
+      <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+        <Stats>
+          <MyObjectBuilder_EntityStat Subtype="Health">
+            <Value>1</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+          <MyObjectBuilder_EntityStat Subtype="Stamina">
+            <Value>0.927589357</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+          <MyObjectBuilder_EntityStat Subtype="Food">
+            <Value>0.32</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+        </Stats>
+        <ScriptNames>
+          <string>MedievalStatEffect</string>
+        </ScriptNames>
+        <ImmunityTicks>0</ImmunityTicks>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_CraftingComponentQueued">
+        <CurrentProduction xsi:nil="true" />
+        <CurrentCrafterId>0</CurrentCrafterId>
+        <CurrentProductionDuration>0</CurrentProductionDuration>
+        <CurrentProductionTimeRemaining>7488624</CurrentProductionTimeRemaining>
+        <ProductionQueue />
+      </Component>
+      <Component xsi:type="MyObjectBuilder_CharacterControllerComponent">
+        <ControllingIdentityId>173603608122994295</ControllingIdentityId>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_QuestEntityComponent">
+        <CompletedQuest QuestSubtypeId="HungryBellies" CompletionTimestamp="1513508481" />
+        <CompletedQuest QuestSubtypeId="CivilianSmelting" CompletionTimestamp="1513509473" />
+        <CompletedQuest QuestSubtypeId="CivilianMetalTools" CompletionTimestamp="1513511294" />
+        <CompletedQuest QuestSubtypeId="HumbleBeginnings" CompletionTimestamp="1513512211" />
+        <CompletedQuest QuestSubtypeId="SettlingDown" CompletionTimestamp="1513512356" />
+        <CompletedQuest QuestSubtypeId="BrighterTomorrow" CompletionTimestamp="1513512879" />
+        <CompletedQuest QuestSubtypeId="SpringCleaning" CompletionTimestamp="1513512879" />
+        <CompletedQuest QuestSubtypeId="CivilianWoodenHouse" CompletionTimestamp="1513514839" />
+        <ActiveQuest Subtype="CivilianSteelTools">
+          <IsTracked>true</IsTracked>
+          <CurrentStepIndex>0</CurrentStepIndex>
+          <FailConditionsEnabled>true</FailConditionsEnabled>
+          <SuccessCondition xsi:type="MyObjectBuilder_QuestConditionResearchUnlocked">
+            <IsCompleted>false</IsCompleted>
+          </SuccessCondition>
+          <SuccessConditionsEnabled>true</SuccessConditionsEnabled>
+          <CurrentStepCondition xsi:type="MyObjectBuilder_QuestConditionComposite">
+            <IsCompleted>false</IsCompleted>
+            <Children xsi:type="MyObjectBuilder_QuestConditionComposite">
+              <IsCompleted>false</IsCompleted>
+              <Children xsi:type="MyObjectBuilder_QuestConditionGather">
+                <IsCompleted>false</IsCompleted>
+                <AmountGathered>0</AmountGathered>
+              </Children>
+              <Children xsi:type="MyObjectBuilder_QuestConditionGather">
+                <IsCompleted>false</IsCompleted>
+                <AmountGathered>0</AmountGathered>
+              </Children>
+              <Children xsi:type="MyObjectBuilder_QuestConditionGather">
+                <IsCompleted>true</IsCompleted>
+                <AmountGathered>7</AmountGathered>
+              </Children>
+              <Children xsi:type="MyObjectBuilder_QuestConditionGather">
+                <IsCompleted>false</IsCompleted>
+                <AmountGathered>0</AmountGathered>
+              </Children>
+            </Children>
+            <Children xsi:type="MyObjectBuilder_QuestConditionComposite">
+              <IsCompleted>false</IsCompleted>
+              <Children xsi:type="MyObjectBuilder_QuestConditionCraft">
+                <IsCompleted>false</IsCompleted>
+                <AmountCrafted>0</AmountCrafted>
+              </Children>
+              <Children xsi:type="MyObjectBuilder_QuestConditionGather">
+                <IsCompleted>false</IsCompleted>
+                <AmountGathered>0</AmountGathered>
+              </Children>
+            </Children>
+            <Children xsi:type="MyObjectBuilder_QuestConditionResearchUnlocked">
+              <IsCompleted>false</IsCompleted>
+            </Children>
+          </CurrentStepCondition>
+        </ActiveQuest>
+        <IsInitialQuestChecked>true</IsInitialQuestChecked>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+      <Component xsi:type="MyObjectBuilder_CombatComponent" />
+      <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+        <Item xsi:type="MyObjectBuilder_HandItem" Subtype="SwordBroken" ItemId="0" Quantity="1" Durability="0.97" />
+        <Item xsi:type="MyObjectBuilder_HandItem" Subtype="AxeCopper" ItemId="1" Quantity="1" Durability="0.65" />
+        <Item xsi:type="MyObjectBuilder_HandItem" Subtype="PickaxeCopper" ItemId="2" Quantity="1" Durability="0.88" />
+        <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Plank10" ItemId="4" Quantity="5">
+          <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+        </Item>
+        <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="Sticks" ItemId="19" Quantity="15" />
+        <Item xsi:type="MyObjectBuilder_ConsumableItem" Subtype="Berries" ItemId="20" Quantity="2" />
+        <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="Sticks" ItemId="21" Quantity="7" />
+        <Item xsi:type="MyObjectBuilder_InventoryItem" Subtype="BranchesConiferous" ItemId="26" Quantity="1" />
+        <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Timber10" ItemId="28" Quantity="5">
+          <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+        </Item>
+        <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Timber10" ItemId="29" Quantity="5">
+          <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+        </Item>
+        <Item xsi:type="MyObjectBuilder_BlockItem" Subtype="Timber10" ItemId="30" Quantity="4">
+          <ObjectBuilderType>MyObjectBuilder_CubeBlock</ObjectBuilderType>
+        </Item>
+        <Item xsi:type="MyObjectBuilder_HandItem" Subtype="HammerWood" ItemId="33" Quantity="1" Durability="0.94" />
+        <NextItemId>34</NextItemId>
+        <InventoryFlags />
+      </Component>
+      <Component xsi:type="MyObjectBuilder_FlightComponent">
+        <Enabled>false</Enabled>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+        <CurrentState>NormalMode</CurrentState>
+      </Component>
+    </ComponentContainer>
+  </Entity>
+  <Toolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot Index="0">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="AxeCopper" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="1">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="SwordBroken" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="2">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="ShovelWood" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="3">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="PickaxeCopper" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="4">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerCopper" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="5">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SupportWood" />
+        </Data>
+      </Slot>
+      <Slot Index="6">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="WallClay" />
+        </Data>
+      </Slot>
+      <Slot Index="7">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="FloorWood" />
+        </Data>
+      </Slot>
+      <Slot Index="8">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileTimberSmall" />
+        </Data>
+      </Slot>
+    </Slots>
+  </Toolbar>
+</MyObjectBuilder_PlayerStorage>

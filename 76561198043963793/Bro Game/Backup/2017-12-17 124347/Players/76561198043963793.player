@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyObjectBuilder_PlayerStorage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlayerId>76561198043963793</PlayerId>
+  <IdentityId>171564804135710650</IdentityId>
+  <Entity xsi:type="MyObjectBuilder_EntityBase" Subtype="Medieval_female">
+    <EntityId>81125869045890318</EntityId>
+    <PersistentFlags>CastShadows InScene</PersistentFlags>
+    <PositionAndOrientation>
+      <Position x="4243.5353848977093" y="2678.0208658615511" z="-256.90143690020363" />
+      <Forward x="-0.373969078" y="0.6557999" z="0.6557999" />
+      <Up x="0.844618" y="0.5329091" z="-0.05126678" />
+    </PositionAndOrientation>
+    <ComponentContainer>
+      <Component xsi:type="MyObjectBuilder_ModelComponent">
+        <ColorMask x="0" y="0" z="0" />
+        <DisplayName>Dukuu_npanop</DisplayName>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_ThirdPersonCameraComponent" Subtype="DefaultThirdPerson">
+        <Pitch>0</Pitch>
+        <Yaw>0</Yaw>
+        <Distance>4</Distance>
+        <TargetOffset>
+          <X>0</X>
+          <Y>2</Y>
+          <Z>0</Z>
+        </TargetOffset>
+        <FrameOffset>
+          <X>0</X>
+          <Y>0</Y>
+        </FrameOffset>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_FirstPersonCameraComponent" Subtype="DefaultFirstPerson">
+        <Pitch>0</Pitch>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_AreaInventoryAggregate" Subtype="NearbyInventories">
+        <Radius>12</Radius>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_EntityEquipmentComponent" />
+      <Component xsi:type="MyObjectBuilder_AreaInventory" Subtype="Ground" />
+      <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+        <Stats>
+          <MyObjectBuilder_EntityStat Subtype="Health">
+            <Value>1</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+          <MyObjectBuilder_EntityStat Subtype="Stamina">
+            <Value>1</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+          <MyObjectBuilder_EntityStat Subtype="Food">
+            <Value>0.55</Value>
+            <MaxValue>1</MaxValue>
+            <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+            <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+          </MyObjectBuilder_EntityStat>
+        </Stats>
+        <ScriptNames>
+          <string>MedievalStatEffect</string>
+        </ScriptNames>
+        <ImmunityTicks>0</ImmunityTicks>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_CraftingComponentQueued">
+        <CurrentProduction xsi:nil="true" />
+        <CurrentCrafterId>0</CurrentCrafterId>
+        <CurrentProductionDuration>0</CurrentProductionDuration>
+        <CurrentProductionTimeRemaining>0</CurrentProductionTimeRemaining>
+        <ProductionQueue />
+      </Component>
+      <Component xsi:type="MyObjectBuilder_CharacterControllerComponent">
+        <ControllingIdentityId>171564804135710650</ControllingIdentityId>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_QuestEntityComponent">
+        <IsInitialQuestChecked>false</IsInitialQuestChecked>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_InventorySpawnComponent" />
+      <Component xsi:type="MyObjectBuilder_CombatComponent" />
+      <Component xsi:type="MyObjectBuilder_Inventory" Subtype="Internal">
+        <NextItemId>0</NextItemId>
+        <InventoryFlags />
+      </Component>
+      <Component xsi:type="MyObjectBuilder_FlightComponent">
+        <Enabled>false</Enabled>
+      </Component>
+      <Component xsi:type="MyObjectBuilder_EntityStateComponent">
+        <CurrentState>NormalMode</CurrentState>
+      </Component>
+    </ComponentContainer>
+  </Entity>
+  <Toolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot Index="0">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="AxeStone" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="1">
+        <Data xsi:type="MyObjectBuilder_ToolbarHandItem">
+          <DefinitionId Type="MyObjectBuilder_HandItem" Subtype="HammerWood" />
+          <ItemId xsi:nil="true" />
+        </Data>
+      </Slot>
+      <Slot Index="2">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="TableCrafting" />
+        </Data>
+      </Slot>
+      <Slot Index="3">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="BedWood" />
+        </Data>
+      </Slot>
+      <Slot Index="4">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="ChestWood" />
+        </Data>
+      </Slot>
+      <Slot Index="5">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="StockpileTimberSmall" />
+        </Data>
+      </Slot>
+    </Slots>
+  </Toolbar>
+</MyObjectBuilder_PlayerStorage>

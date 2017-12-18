@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bookmarks xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bookmark Name="Large Blocks" Address="=large">
+    <Icon>Textures\GUI\Icons\cubes\StoneCube.dds</Icon>
+  </Bookmark>
+  <Bookmark Name="Small Blocks" Address="=small">
+    <Icon>Textures\GUI\Icons\cubes\TimberSmall.dds</Icon>
+  </Bookmark>
+  <Bookmark Name="Tools and Weapons" Address="~handitem">
+    <Icon>Textures\GUI\Icons\ToolsAndWeapons\HammerIron.dds</Icon>
+  </Bookmark>
+  <Bookmark Name="Character Animations" Address="~animation">
+    <Icon>Textures\GUI\Icons\Animations\Wave.dds</Icon>
+  </Bookmark>
+  <Bookmark Name="Voxel Hands" Address="~voxel">
+    <Icon>Textures\GUI\Icons\VoxelHands\VoxelHand_Box.dds</Icon>
+  </Bookmark>
+  <LastSearch>=small</LastSearch>
+</Bookmarks>
